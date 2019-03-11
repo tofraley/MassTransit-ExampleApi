@@ -1,0 +1,14 @@
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\bin\Debug\netcoreapp2.1\MassTransit_ExampleApi.deps.json
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\bin\Debug\netcoreapp2.1\MassTransit_ExampleApi.runtimeconfig.json
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\bin\Debug\netcoreapp2.1\MassTransit_ExampleApi.runtimeconfig.dev.json
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\bin\Debug\netcoreapp2.1\MassTransit_ExampleApi.dll
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.csprojAssemblyReference.cache
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.csproj.CoreCompileInputs.cache
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.RazorAssemblyInfo.cache
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.RazorAssemblyInfo.cs
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.AssemblyInfoInputs.cache
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.AssemblyInfo.cs
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.RazorTargetAssemblyInfo.cache
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\bin\Debug\netcoreapp2.1\MassTransit_ExampleApi.pdb
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.dll
+C:\Clearent\Taylor-Sandbox\MassTransit_ExampleApi\MassTransit_ExampleApi\MassTransit_ExampleApi\obj\Debug\netcoreapp2.1\MassTransit_ExampleApi.pdb
