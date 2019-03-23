@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Serilog;
+using SettlementApiMiddleware.Core.ExchangeId;
 
 namespace MassTransit_ExampleApi
 {
@@ -31,6 +32,7 @@ namespace MassTransit_ExampleApi
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
                     
             var configuration = new ConfigurationBuilder().Build();
+            services.AddScoped<IExchangeIdHelper>(s => new ExchangeIdHelper(new HttpContextAccessor(), configuration));
             services.AddTransient<SimpleTransient>();
             services.AddScoped<SimpleScoped>();
             services.AddSingleton<SimpleSingleton>();
