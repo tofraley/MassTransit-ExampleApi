@@ -13,7 +13,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Serilog;
-using SettlementApiMiddleware.Core.ExchangeId;
 
 namespace MassTransit_ExampleApi
 {
@@ -32,7 +31,6 @@ namespace MassTransit_ExampleApi
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
                     
             var configuration = new ConfigurationBuilder().Build();
-            services.AddScoped<IExchangeIdHelper>(s => new ExchangeIdHelper(new HttpContextAccessor(), configuration));
             services.AddTransient<SimpleTransient>();
             services.AddScoped<SimpleScoped>();
             services.AddSingleton<SimpleSingleton>();
@@ -42,14 +40,6 @@ namespace MassTransit_ExampleApi
 
             services.AddScoped<FooConsumer>(p => new FooConsumer(p, p.GetService<SimpleTransient>(), p.GetService<SimpleScoped>(),
                 p.GetService<IExchangeIdHelper>(), p.GetService<SimpleHttpProxy>()));
-
-            //var queueConfiguration = new QueueConfiguration()
-            //{
-
-            //};
-
-            //services.AddSingleton<Microsoft.Extensions.Hosting.IHostedService>(s => new MessageConsumerService<ValueEnteredConsumer>(s.GetService<Microsoft.Extensions.Logging.ILogger>(), s.GetService<ValueEnteredConsumer>(),
-            //        queueConfiguration, queueConfiguration.GIACTQueueName));
 
             try
             {
